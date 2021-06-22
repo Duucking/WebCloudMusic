@@ -1,0 +1,49 @@
+@charset "UTF-8";
+.swiper-container{
+    height:100%;
+    width:1000px;
+}
+.swiper-slide{
+    width:100%;
+    height:100%;
+    background-color: #f5f5f5;
+}
+
+.play_name {
+    background-image: url(sze.jpg);
+    width: 220px;
+    height: 124px;
+    cursor:pointer;
+    border:1px solid #fff;
+}
+.play_name:hover {
+    border:1px solid #cf9;
+}
+ 
+.play_name:hover .ico_play{
+    background-image: url(ico_play.png);
+}
+ 
+.title1 {
+    display: block;
+    padding-top: 80px;
+    padding-left: 4px;
+    font: 12px/1.5 Tahoma, "微软雅黑";
+    color: #fff;
+    font-weight:bold;
+}
+ 
+.cname1 {
+    display: block;
+    padding-left: 4px;
+    font: 12px/1.5 Tahoma, "微软雅黑";
+    color: #cf9;
+    font-weight:bold;
+}
+.ico_play {
+    position: absolute;
+    top: 48px;
+    left: 90px;
+    width: 60px;
+    height: 60px;
+}

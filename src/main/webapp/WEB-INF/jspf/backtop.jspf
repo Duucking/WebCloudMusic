@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<ul class="ax-backtop" style="margin-bottom: 100px">
+		<li class="ax-item" style="background-color: #ffb6c1;"><a
+			href="##" class="ax-iconfont ax-icon-music" id="open-bottom"></a><span
+			class="ax-text">打开音乐播放器</span></li>
+		<li class="ax-item ax-social" style="background-color: #ffb6c1;"><a
+			href="##" class="ax-iconfont ax-icon-share"></a><span class="ax-text"><a
+				href="##" class="ax-iconfont ax-icon-wechat-fill"></a><a href="##"
+				class="ax-iconfont ax-icon-weibo-fill"></a><a href="##"
+				class="ax-iconfont ax-icon-facebook-fill"></a><a href="##"
+				class="ax-iconfont ax-icon-twitter-fill"></a></span></li>
+		<li class="ax-item" style="background-color: #ffb6c1;"><a
+			href="##" class="ax-iconfont ax-icon-qrcode"></a><span
+			class="ax-text"><img src="IMAGE/QRCode.png"></span></li>
+		<li class="ax-item ax-totop" style="background-color: #ffb6c1;"><a
+			href="##" class="ax-iconfont ax-icon-totop"></a></li>
+	</ul>

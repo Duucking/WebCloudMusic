@@ -1,0 +1,50 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<header class="ax-header">
+	<div class="ax-row"
+		style="margin: 0 auto; width: 1000px; background-color: transparent;">
+		<div class="ax-col">
+			<a href="Index" class="ax-logo"><img src="IMAGE/Logo.png" /></a>
+		</div>
+		<div class="ax-nav">
+
+			<div class="ax-item">
+				<a href="Index" class="ax-text">发现音乐</a><span class="ax-line"></span>
+			</div>
+			<span class="ax-gutter-line" style="height: 100%"></span>
+			<div class="ax-item">
+				<a href="Mymusic" class="ax-text">我的音乐</a><span class="ax-line"></span>
+			</div>
+			<span class="ax-gutter-line" style="height: 100%"></span>
+			<div class="ax-item">
+				<a href="Friends" class="ax-text">朋友</a><span class="ax-line"></span>
+			</div>
+			<span class="ax-gutter-line" style="height: 100%"></span>
+			<div class="ax-item ">
+				<a href="##" class="ax-text">商城</a><span class="ax-line"></span>
+			</div>
+			<div class="ax-search">
+				<form id="search" method="post" action="Search">
+					<input name="show" value="title" type="text"> <input
+						id="searchtext" name="searchtext" placeholder="音乐/专辑/艺人"
+						type="text"><a href="##"
+						class="ax-iconfont ax-icon-search"
+						type="submit"
+						onclick="document.getElementById('search').submit();return false;"></a>
+				</form>
+			</div>
+
+			<span class="ax-btns"> <a href="##"
+				class="ax-iconfont ax-icon-question-o-fill"><span class="ax-dot"></span></a>
+			</span>
+			<div class="ax-login">
+				<a href="##" id="login">登录</a><a href="register.jsp">注册</a>
+			</div>
+
+		</div>
+		<a href="##" class="ax-open ax-iconfont ax-icon-person"><span
+			class="ax-dot"></span></a> <a href="##"
+			class="ax-open ax-iconfont ax-icon-search"></a>
+	</div>
+</header>
+<div class="ax-space-header"></div>

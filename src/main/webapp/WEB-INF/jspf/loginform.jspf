@@ -1,0 +1,73 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<div class="ax-window" data-mask="true" id="loginform">
+	<form id="login" name="login" onsubmit="return validateForm()"
+		method="post" action="Login">
+		<div class="ax-window-overlay"></div>
+		<div class="ax-window-contain">
+			<a href="##" class="ax-window-close"><i
+				class="ax-iconfont ax-icon-close"></i></a>
+			<div class="ax-window-title">登录窗口</div>
+			<div class="ax-break-line"></div>
+			<div class="ax-window-content">
+				<div class="ax-border-tel ax-radius-tel ax-margin ax-response-tel ">
+
+					<div class="ax-form-group">
+						<div class="ax-flex-row">
+							<div class="ax-form-con">
+								<div class="ax-form-input">
+									<span class="ax-pos-left" style="width: 28px;"><svg
+											class="ax-svg">
+												<use xlink:href="#ax-icon-me-fill"></use></svg></span> <input
+										id="username" name="username" placeholder="输入登录名称" type="text"
+										onblur="checkUsername()"><span class="ax-pos-right"><a
+										href="##" class="ax-iconfont ax-icon-close ax-val-none"></a></span> <span
+										id="nametip"
+										class="ax-form-txt ax-color-primary ax-iconfont ax-icon-check-o-fill"
+										style="display: none;"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="ax-break-md ax-hide-tel"></div>
+					<div class="ax-break-line ax-hide-pad ax-hide-pc"></div>
+
+					<div class="ax-form-group">
+						<div class="ax-flex-row">
+							<div class="ax-form-con">
+								<div class="ax-form-input">
+									<span class="ax-pos-left" style="width: 28px;"><svg
+											class="ax-svg">
+												<use xlink:href="#ax-icon-lock-fill"></use></svg></span><input
+										id="password" name="password" placeholder="输入密码"
+										type="password" onblur="checkPassword()"><span
+										class="ax-pos-right"><a href="##"
+										class="ax-iconfont ax-icon-close ax-val-none"></a></span> <span
+										id="passwordtip"
+										class="ax-form-txt ax-color-primary ax-iconfont ax-icon-check-o-fill"
+										style="display: none;"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="ax-break-md ax-hide-tel"></div>
+					<div class="ax-break-line ax-hide-pad ax-hide-pc"></div>
+
+
+					<div class="ax-break-line"></div>	
+					<div class="ax-padding ax-window-operate">
+						<div class="ax-row">
+							<div class="ax-btns">
+								<a href="##" class="ax-btn ax-text ax-ignore ax-window-close">取消</a>
+								<button class="ax-btn ax-primary" type="submit">登录</button>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</form>
+</div>

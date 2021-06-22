@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<div class="ax-window ax-window-show" data-mask="true" id="dialog">
+	<div class="ax-window-overlay"></div>
+	<div class="ax-window-contain">
+		<a href="##" class="ax-window-close"><i
+			class="ax-iconfont ax-icon-close"></i></a>
+		<div class="ax-window-title">系统消息</div>
+		<div class="ax-window-content">
+			<div class="ax-padding">
+				<p>${Msg}</p>
+			</div>
+		</div>
+		<div class="ax-padding ax-window-operate">
+			<div class="ax-row">
+				<div class="ax-col">
+					<div class="ax-explain" style="color: gray;"><a href="##">联系管理员</a></div>
+				</div>
+				<div class="ax-btns">
+					<a href="##" class="ax-btn ax-primary ax-window-close">确定</a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
